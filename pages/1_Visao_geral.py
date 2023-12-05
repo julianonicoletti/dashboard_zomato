@@ -43,7 +43,6 @@ def gerar_mapa(df):
     folium.LayerControl().add_to(map)
     return map
 
-
 def country_name(country_id):
     COUNTRIES = { #dando nomes aos códigos de países
     1: "India",
@@ -64,8 +63,6 @@ def country_name(country_id):
     }
     return COUNTRIES[country_id]
 
-
-
 def color_name(color_code):
     COLORS = {
     "3F7E00": "darkgreen",
@@ -77,7 +74,6 @@ def color_name(color_code):
     "FF7800": "darkred",
     }
     return COLORS[color_code]
-
 
 def rename_columns(dataframe):
     df = dataframe.copy()
@@ -93,8 +89,6 @@ def rename_columns(dataframe):
 
 df['Country Name'] = df['Country Code'].map(country_name)
 df["Cuisines"] = df.loc[:, "Cuisines"].astype(str).apply(lambda x: x.split(",")[0])
-
-
 
 # =================================================================================
 # STREAMLIT
@@ -114,7 +108,6 @@ with st.container():
     st.markdown('# Visão Geral')
     st.markdown('---')
     
-
 with st.container():
     st.header('Dados Gerais')
     col1, col2, col3, col4, col5 = st.columns(5)
