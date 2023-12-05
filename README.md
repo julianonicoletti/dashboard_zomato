@@ -41,6 +41,16 @@ Foi criado um painel online, hospedado em Cloud e disponível para acesso em qua
 ## Conclusão
 O objetivo do projeto foi de elucidar e trazer informações através de gráficos e tabelas das métricas da plataforma para que a empresa tire estratégias e ações para expandir e melhorar seus negócios.
 
+# Tecnologias e Ferramentas
+<div align="left">
+	<code><img width="55" src="images/github.png" alt="github" title="github"/></code>
+	<code><img width="55" src="images/icons8-visual-studio-code-2019-96.png" alt="Visual Studio Code" title="Visual Studio Code"/></code>
+	<code><img width="55" src="images/icons8-python-96.png" alt="Python" title="python"/></code>
+	<code><img width="55" src="images/icons8-pandas-96.png" alt="Pandas" title="pandas"/></code>
+	<code><img width="50" src="images/plotly.png" alt="Plotly" title="plotly"/></code>
+	<code><img width="50" src="images/jupyter-logo.png" alt="JupyterLab" title="jupyterLab"/></code>
+</div>
+
 
 
 
